@@ -45,7 +45,7 @@ The transformation is made up of several steps:
 <li>Bind the two sets of collected in steps four and five.</li>
 <li>Transform the names of the columns to the style described in lectures (lower case, no hyphens/undersores/dots/parenthesis included -> column names must match regex "[a-z0-9]+"). Also some of the original typos like "fBodyBodyAccJerkMag-mean()" were corrected to "fbodyaccjerkmagmean".</li>
 <li>Replace the values in the activity column for its textual representations, which are derived from the "UCI HAR Dataset/activity_labels.txt"</li>
-<li>Transform the data into data frame with 180 rows (30 volunteers performing 6 activities each) with 66 + 2 columns (66 descriptive statistics of mean and standard deviation + subject/volunteer id + activity performed). The description of the exact form of transformation is given in the "Restul set" part of this file.</li>
+<li>Transform the data into data frame with 180 rows (30 volunteers performing 6 activities each) with 66 + 2 columns (66 descriptive statistics of mean and standard deviation + subject/volunteer id + activity performed). The description of the exact form of transformation is given in the "Result set" part of this file.</li>
 </ol>
 
 ## Result set
